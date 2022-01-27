@@ -5,7 +5,7 @@ import "./packages.scss"
 
 const Packages = () => {
   return (
-    <section className="packages">
+    <section className="packages" id="packages">
       <Heading title="Our Packages" />
       <div className="packages-container">
         {packagesData.map((item) => (

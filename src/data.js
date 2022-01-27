@@ -74,3 +74,23 @@ export const servicesData = [
     title: "Safety Guide",
   },
 ];
+export const pricingData = [
+  {
+    id: 1,
+    plan: "Basic Plan",
+    price: "30",
+    days: "10",
+  },
+  {
+    id: 2,
+    plan: "Standard Plan",
+    price: "50",
+    days: "20",
+  },
+  {
+    id: 3,
+    plan: "Premuim Plan",
+    price: "90",
+    days: "30",
+  },
+]

@@ -2,7 +2,7 @@ import "./intro.scss";
 
 const Intro = () => {
   return (
-    <section className="intro">
+    <section className="intro" id="home">
       <div className="img-intro">
         <img src="/images/home-img.svg" alt="" />
       </div>

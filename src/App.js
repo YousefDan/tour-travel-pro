@@ -6,6 +6,7 @@ import Intro from "./components/intro/Intro";
 import BookForm from "./components/book-form/BookForm";
 import Packages from "./components/packages/Packages";
 import Services from "./components/services/Services";
+import Pricing from "./components/pricing/Pricing";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
     <BookForm />
     <Packages />
     <Services />
+    <Pricing />
   </section> );
 }
  

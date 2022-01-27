@@ -1,17 +1,17 @@
 import { servicesData } from "../../data";
 import Heading from "../heading/Heading";
-import "./services.scss"
+import "./services.scss";
 
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <Heading title="Our Services" />
       <div className="services-container">
         {servicesData.map((item) => (
           <div key={item.id} className="service-item">
             <div>
               <div className="icon">
-              <i className={item.icon}></i>
+                <i className={item.icon}></i>
               </div>
               <span>{item.id}</span>
             </div>
