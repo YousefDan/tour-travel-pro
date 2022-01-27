@@ -93,4 +93,54 @@ export const pricingData = [
     price: "90",
     days: "30",
   },
+];
+export const reviewData = [
+  {
+    id: 1,
+    name: "John Doe",
+    img: "/images/pic-1.png",
+    rating : 4.5,
+  },
+  {
+    id: 2,
+    name: "Sara Been",
+    img: "/images/pic-2.png",
+    rating : 3.5,
+  },
+  {
+    id: 3,
+    name: "John Doe",
+    img: "/images/pic-3.png",
+    rating : 5,
+  },
+  {
+    id: 4,
+    name: "Elnaz",
+    img: "/images/pic-4.png",
+    rating : 4,
+  },
+  {
+    id: 5,
+    name: "John Doe",
+    img: "/images/pic-1.png",
+    rating : 4.5,
+  },
+  {
+    id: 6,
+    name: "Sara Been",
+    img: "/images/pic-2.png",
+    rating : 3.5,
+  },
+  {
+    id: 7,
+    name: "John Doe",
+    img: "/images/pic-3.png",
+    rating : 5,
+  },
+  {
+    id: 8,
+    name: "Elnaz",
+    img: "/images/pic-4.png",
+    rating : 4,
+  },
 ]

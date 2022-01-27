@@ -21,7 +21,7 @@ const Pricing = () => {
               <li>Luxury Hotel</li>
             </ul>
             <div className="btn-wrapper">
-                <button className="btn">Choose Plan</button>
+              <button className="btn">Choose Plan</button>
             </div>
           </div>
         ))}
