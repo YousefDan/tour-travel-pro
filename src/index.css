@@ -51,6 +51,7 @@ body {
   font-weight: 500;
   font-size: 17px;
   text-align: center;
+  width: max-content;
 }
 .btn:hover {
   letter-spacing: 2px;

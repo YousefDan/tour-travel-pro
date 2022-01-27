@@ -5,7 +5,7 @@
   top: 0;
   right: 0;
   left: 0;
-  background: var(--bg-color-2);
+  background: var(--bg-color-1);
   color: var(--text-color-2);
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
   .search-box {
     height: 50px;
     width: 50%;
-    background: var(--bg-color-1);
+    background: var(--bg-color-2);
     border-radius: 7px;
     overflow: hidden;
     input {
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     .icon {
-      background: var(--bg-color-1);
+      background: var(--bg-color-2);
       width: 40px;
       height: 40px;
       border-radius: 7px;
@@ -73,7 +73,7 @@
     top: 90px;
     right: 40px;
     width: 240px;
-    background: var(--bg-color-2);
+    background: var(--bg-color-1);
     padding: 5px 15px;
     border-radius: 7px;
     transform: scale(0);
@@ -90,7 +90,7 @@
       font-weight: 500;
       &:hover {
         color: var(--orange-color);
-        background: var(--bg-color-1);
+        background: var(--bg-color-2);
         padding-left: 20px;
       }
     }
@@ -107,7 +107,7 @@
       left: 0;
       margin: auto;
       width: 90%;
-      background: var(--bg-color-2);
+      background: var(--bg-color-1);
     }
     .icons-wrapper {
       .icon.search-icon {
