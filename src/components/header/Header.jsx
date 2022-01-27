@@ -30,7 +30,7 @@ const Header = () => {
           <i className="fas fa-search"></i>
         </div>
         <div onClick={() => setDarkMode(!darkMode)} className="icon">
-          <i className={darkMode ? "fas fa-moon" : "fas fa-sun"}></i>
+          <i className={darkMode ? "fas fa-sun" : "fas fa-moon"}></i>
         </div>
         <div onClick={toggleLoginFormHandler} className="icon">
           <i className="fas fa-user"></i>
