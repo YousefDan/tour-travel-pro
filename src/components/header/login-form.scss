@@ -1,0 +1,54 @@
+.login-form {
+  width: 340px;
+  position: absolute;
+  top: 90px;
+  right: 40px;
+  background: var(--bg-color-2);
+  padding: 15px;
+  border-radius: 7px;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.5s ease;
+  .inputGroup {
+    margin-bottom: 17px;
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+    input {
+      width: 100%;
+      height: 40px;
+      border: none;
+      background: var(--bg-color-1);
+      color: var(--text-color-1);
+      border-radius: 7px;
+      padding: 5px 10px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .checkboxWrapper {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    color: var(--text-color-1);
+    label {
+      margin-left: 5px;
+    }
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .btn {
+    width: 100%;
+  }
+}
+/* Media Queries */
+@media (max-width: 520px) {
+  .login-form {
+    right: 17px;
+  }
+}

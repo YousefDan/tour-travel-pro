@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --text-color-1: #666;
+  --text-color-2: #222821;
+  --orange-color: #f79f1f;
+  --bg-color-1: #eee;
+  --bg-color-2: #fff;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: sans-serif, Tahoma;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+ul {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar-track {
+  background: var(--bg-color-2);
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--orange-color);
+}
+body {
+  background: var(--bg-color-1);
+}
+/* Active Class For Dark Mode */
+.active {
+  --text-color-1: #eee;
+  --text-color-2: #fff;
+  --bg-color-1: #666;
+  --bg-color-2: #222821;
+}
+/* Global Components */
+.btn {
+  background-color: var(--orange-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 21px;
+  color: var(--bg-color-2);
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+.btn:hover {
+  letter-spacing: 2px;
 }
