@@ -9,6 +9,7 @@ import Services from "./components/services/Services";
 import Pricing from "./components/pricing/Pricing";
 import Review from "./components/review/review";
 import ContactUs from "./components/contact-us/ContactUsForm";
+import Blogs from "./components/blogs/Blogs";
 
 const App = () => {
   const { darkMode } = useContext(TravelContext);
@@ -22,6 +23,7 @@ const App = () => {
       <Pricing />
       <Review />
       <ContactUs />
+      <Blogs />
     </section>
   );
 };
