@@ -21,7 +21,7 @@ const Review = () => {
       <Heading title="Client's Review" />
       <div className="wrapper">
         <div
-          style={{ display: slideIndex === -5 && "none" }}
+          style={{ display: slideIndex === -reviewData.length && "none" }}
           onClick={() => handleClick("left")}
           className="arrow left"
         >
