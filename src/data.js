@@ -143,4 +143,22 @@ export const reviewData = [
     img: "/images/pic-4.png",
     rating : 4,
   },
-]
+];
+export const branches = [
+  "Iran",
+  "India",
+  "Russia",
+  "Japan",
+  "UAE",
+  "Germany",
+  "Canada",
+];
+export const quickLinks = [
+  "home",
+  "packages",
+  "services",
+  "pricing",
+  "review",
+  "contact",
+  "blogs",
+];
